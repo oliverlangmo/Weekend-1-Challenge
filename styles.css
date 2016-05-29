@@ -1,8 +1,11 @@
-
+body{
+  background-image: url('img/pixel_weave.png')
+}
 .direction{
   text-align: center;
 }
 .user-data{
+  background-color: white;
   width: 600px;
   margin:0 auto;
   border: 2px solid black;
@@ -23,6 +26,7 @@
 #outputDiv, #outputDiv2{
   width: 600px;
   margin: 0 auto;
+
 }
 #blankBox{
   margin-top: 10px;
@@ -39,5 +43,5 @@
   margin: 0 auto;
 }
 .remove button{
-  margin: 0 auto;
+  background-color: red;
 }

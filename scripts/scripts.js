@@ -33,7 +33,7 @@ var addSalary = function(){
    if (allSals[i] > 0){
     totalSal+=allSals[i];
    }
-  outputText = '<p>Total salary cost for all employees: $' + Math.fround(totalSal);
+  outputText = '<p>Total salary cost for all employees: $' + totalSal;
   document.getElementById('outputDiv2').innerHTML = outputText;
   }
 };
@@ -66,5 +66,5 @@ var remveEmp = function(){
     'Name':empName, 'EmployeeId': empNum, 'Title': jobTitle, 'Salary': annSal};
      elem.parentNode.removeChild(elem);
      allEmps.pop(newEmp);
-     
+
 };
