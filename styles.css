@@ -1,0 +1,43 @@
+
+.direction{
+  text-align: center;
+}
+.user-data{
+  width: 600px;
+  margin:0 auto;
+  border: 2px solid black;
+  text-align: right;
+  padding:10px;
+
+}
+.input{
+  margin: 0 auto;
+
+}
+.buttons{
+  width: 400px;
+  margin-top: 10px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+#outputDiv, #outputDiv2{
+  width: 600px;
+  margin: 0 auto;
+}
+#blankBox{
+  margin-top: 10px;
+  color: red;
+  width: 450px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+.onForm{
+  background-color: green;
+}
+.remove{
+  width: 600px;
+  margin: 0 auto;
+}
+.remove button{
+  margin: 0 auto;
+}

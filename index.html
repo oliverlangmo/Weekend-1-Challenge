@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Employee Calculator</title>
+    <script src="scripts/scripts.js"></script>
+    <link rel = "stylesheet" type="text/css" href = "styles.css">
+  </head>
+  <body>
+    <div class ="user-data">
+      <h1 class = "direction">Enter Employee information below</h1>
+        <table class = "input">
+              <tr>
+                <td>Name: Last, First:</td>
+                <td><input required = "required" type="text" placeholder="Name: Last, First" id="nameIn"></td>
+              </tr>
+              <tr>
+              <td>Employee ID:</td>
+              <td><input required ="required" type="number" placeholder="Employee Id" id="EmpNum"></td>
+              </tr>
+              <tr>
+                <td>Job Title:</td>
+                <td><input required="required" type="text" placeholder="Job Title" id="position"></td>
+              </tr>
+              <tr>
+                <td>Yearly Salary:</td>
+                <td><input required = "required" type="number" placeholder="Yearly Salary" id="annSal"></td>
+             </tr>
+        </table>
+           <div class = "buttons">
+             <button class = "onForm"type = "submit" onclick="submitForm();">Submit</button>
+             <button class ="onForm"type"reset" onclick = "resetForm();">Reset</button>
+           </div>
+           <div id = "blankBox"></div>
+    </div>
+    <div id = "outputDiv"></div>
+    <div id = "outputDiv2"></div>
+    <div class = "remove"><button onclick="remveEmp();">Remove Employee</button></div>
+
+  </body>
+</html>
