@@ -37,6 +37,8 @@ body{
 }
 .onForm{
   background-color: green;
+  border-radius: 5px;
+  color: white;
 }
 .remove{
   width: 600px;
